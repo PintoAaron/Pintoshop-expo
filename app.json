@@ -1,0 +1,44 @@
+{
+  "expo": {
+    "name": "PintoShop",
+    "slug": "pintoshop",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "icon": "./apps/assets/appicon.png",
+    "userInterfaceStyle": "light",
+    "splash": {
+      "image": "./apps/assets/splash-screen.png",
+      "resizeMode": "cover",
+      "backgroundColor": "#ffffff"
+    },
+    "assetBundlePatterns": [
+      "**/*"
+    ],
+    "ios": {
+      "supportsTablet": true,
+      "bundleIdentifier": "com.macquena.pintoshop",
+      "infoPlist": {
+        "ITSAppUsesNonExemptEncryption": false
+      }
+    },
+    "android": {
+      "adaptiveIcon": {
+        "foregroundImage": "./apps/assets/adaptive-icon.png",
+        "backgroundColor": "#ffffff"
+      },
+      "package": "com.macquena.pintoshop"
+    },
+    "web": {
+      "favicon": "./apps/assets/favicon.png"
+    },
+    "plugins": [
+      "expo-secure-store"
+    ],
+    "extra": {
+      "eas": {
+        "projectId": "9ea92a21-94a8-4bdd-93c0-1a3a7e0a67d5"
+      }
+    },
+    "owner": "macquena"
+  }
+}
